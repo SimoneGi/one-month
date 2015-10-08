@@ -11,7 +11,7 @@ gem 'bootstrap-sass'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :devlopment, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.10'
 end
 
 group :production do
